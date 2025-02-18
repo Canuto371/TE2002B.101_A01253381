@@ -1,0 +1,32 @@
+module top_10bits_7seg #(parameter N=10, segmentos=7)(
+	input [N-1:0] A,B,
+	output [0:segmentos-1] D1,D2,D3,D4
+);
+	wire [9:0] unidades;
+	wire [9:0] decenas;
+	wire [9:0] centenas;
+	wire [9:0] miles;
+	wire [N:0] suma_wire;
+
+//instanciar
+adder_parametrizado SUMADOR_1 (.A(A),.B(B), .suma(suma_wire));
+
+//Separar las decenas y las unidades para el display
+assign unidades=suma_wire%10; //D1
+assign decenas=suma_wire/10; //D2
+assign centenas=suma_wire/100;
+assign miles=suma_wire/1000;
+
+//D1
+decoder_7_seg DISPLAY_1 (.decoder_in(unidades),.decoder_out(D1));
+
+//D2
+decoder_7_seg DISPLAY_2 (.decoder_in(decenas),.decoder_out(D2));
+
+//D3
+decoder_7_seg DISPLAY_3 (.decoder_in(centenas),.decoder_out(D3));
+
+//D4
+decoder_7_seg DISPLAY_4 (.decoder_in(miles),.decoder_out(D4));
+
+endmodule
