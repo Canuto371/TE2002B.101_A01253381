@@ -1,0 +1,24 @@
+module top_10bits_7seg_tb#(parameter N=10)();
+	reg  [N-1:0] BCD_in_sw;
+	wire [0:6] Display_unidad;
+	wire [0:6] Display_decena;
+	wire [0:6] Display_centena;
+	wire [0:6] Display_millar;
+
+	top_10bits_7seg DUT (.suma_wire(BCD_in_sw),.unidades(Display_unidad),.decenas(Display_decena),.centenas(Display_centena),.millar(Display_millar));
+	
+	task set_input();
+		BCD_in_sw=$urandom_range(2**N-1);
+		$display("Valor a probar= %d",BCD_in_sw);
+		#10;
+	endtask
+	
+	interger i;
+	
+	initial begin
+		for(i=0;i<ITERACIONES;i=i+1)
+		begin
+			set_input();
+		end
+	end
+endmodule
