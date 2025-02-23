@@ -10,7 +10,7 @@ Descripción:
     
 Requisitos:
 *	Quartus Prime (Intel FPGA)
-*	FPGA compatible (, MAX10 10M50DAF484C7G)
+*	FPGA compatible (DE10-Lite, MAX10 10M50DAF484C7G)
 *	Cable de programación JTAG
 
 Estructura del Proyecto:
