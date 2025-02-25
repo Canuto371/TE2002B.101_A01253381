@@ -22,7 +22,7 @@ Evidencia Link:
 *   https://drive.google.com/file/d/11vQPnaNHqT0V9Ux_MTHzCVuPNMV8MyMj/view?usp=sharing
 
 RTL Viewer:
-![image](https://github.com/user-attachments/assets/41405ed6-45bb-4350-a4f5-f629ec643b13)
+![image](https://github.com/user-attachments/assets/23590311-ebe0-47bf-80f4-6e6bea55103d)
 
 RTL Simulation:
 ![image](https://github.com/user-attachments/assets/342944de-5507-4288-b909-a29aa958f4d7)
