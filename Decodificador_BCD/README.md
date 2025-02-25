@@ -23,3 +23,6 @@ Evidencia Link:
 
 RTL Viewer:
 ![image](https://github.com/user-attachments/assets/41405ed6-45bb-4350-a4f5-f629ec643b13)
+
+RTL Simulation:
+![image](https://github.com/user-attachments/assets/342944de-5507-4288-b909-a29aa958f4d7)
