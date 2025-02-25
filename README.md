@@ -20,3 +20,6 @@ Estructura del Proyecto:
 
 Evidencia Link:
 *   https://drive.google.com/file/d/11vQPnaNHqT0V9Ux_MTHzCVuPNMV8MyMj/view?usp=sharing
+
+RTL Viewer:
+![image](https://github.com/user-attachments/assets/41405ed6-45bb-4350-a4f5-f629ec643b13)
