@@ -1,0 +1,82 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do PWN_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/quartus_practicas/PWN {C:/quartus_practicas/PWN/pwm1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:45:59 on Mar 04,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_practicas/PWN" C:/quartus_practicas/PWN/pwm1.v 
+# -- Compiling module pwm1
+# 
+# Top level modules:
+# 	pwm1
+# End time: 14:45:59 on Mar 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/quartus_practicas/PWN {C:/quartus_practicas/PWN/pwm_tb1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 14:46:00 on Mar 04,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_practicas/PWN" C:/quartus_practicas/PWN/pwm_tb1.v 
+# -- Compiling module pwm_tb1
+# 
+# Top level modules:
+# 	pwm_tb1
+# End time: 14:46:00 on Mar 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  pwm_tb1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" pwm_tb1 
+# Start time: 14:46:00 on Mar 04,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.pwm_tb1(fast)
+# Loading work.pwm1(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time = 0 | pwm_out = 0 | DC =      25000 | pb_inc = 0 | pb_dec = 0
+# Time = 5 | pwm_out = 1 | DC =      25000 | pb_inc = 0 | pb_dec = 0
+# Time = 20 | pwm_out = 1 | DC =      25000 | pb_inc = 1 | pb_dec = 0
+# Time = 25 | pwm_out = 1 | DC =      27500 | pb_inc = 1 | pb_dec = 0
+# Time = 30 | pwm_out = 1 | DC =      27500 | pb_inc = 0 | pb_dec = 0
+# Time = 50 | pwm_out = 1 | DC =      27500 | pb_inc = 1 | pb_dec = 0
+# Time = 55 | pwm_out = 1 | DC =      30000 | pb_inc = 1 | pb_dec = 0
+# Time = 60 | pwm_out = 1 | DC =      30000 | pb_inc = 0 | pb_dec = 0
+# Time = 90 | pwm_out = 1 | DC =      30000 | pb_inc = 0 | pb_dec = 1
+# Time = 95 | pwm_out = 1 | DC =      27500 | pb_inc = 0 | pb_dec = 1
+# Time = 100 | pwm_out = 1 | DC =      27500 | pb_inc = 0 | pb_dec = 0
+# Time = 120 | pwm_out = 1 | DC =      27500 | pb_inc = 0 | pb_dec = 1
+# Time = 125 | pwm_out = 1 | DC =      25000 | pb_inc = 0 | pb_dec = 1
+# Time = 130 | pwm_out = 1 | DC =      25000 | pb_inc = 0 | pb_dec = 0
+# ** Note: $stop    : C:/quartus_practicas/PWN/pwm_tb1.v(30)
+#    Time: 230 ps  Iteration: 0  Instance: /pwm_tb1
+# Break in Module pwm_tb1 at C:/quartus_practicas/PWN/pwm_tb1.v line 30
+# End time: 14:47:39 on Mar 04,2025, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 1
