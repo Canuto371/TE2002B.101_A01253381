@@ -17,7 +17,7 @@ Estructura del Proyecto:
 *	d_ff.v -> Módulo de flip flops auxiliares para el manejo del debouncer.
 *	debouncer.v -> Módulo que mantiene estable la señal de entrada para evitar transiciones no deseadas, debido a que la mecánica de un interruptor no cambia de 0 a 1 de forma instantánea.
 *	clkdiv.v -> Módulo que crea una señal con menor frecuencia a partir de una señal de reloj.
-*	pwm.v -> Máquina de estados que describe el cambio de valor del Duty Cycle dependiendo de la introducción de señales de botón
+*	pwm.v -> Módulo que describe el cambio de valor del Duty Cycle dependiendo de la introducción de señales de botón
 *	pwm_tb.v -> Módulo test bench, donde se simulan mediante pulsaciones los valores de salida.
 *	pwm_wr.v -> Módulo wrapper de asignación de pines de entrada y salida.
 
