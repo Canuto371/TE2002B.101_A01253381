@@ -2,10 +2,10 @@
 Elizabeth Jauregui Zarate
 A01253381
 -
-Decodificador Binario a Decimal
+PWM
 
 Descripción:
-*    El proyecto adjunto convierte un número binario de 10 bits en un número decimal de 4 displays de 7 segmentos (de 0 a 1023).
+*    El proyecto adjunto convierte la introducción de señal de 2 botones (uno de incremento y otro de decremento) que modifican el valor del Duty Cycle para cambiar el ángulo de posición de un servo motor.
 *    La programación del hardware fue realizado utilizando Quartus y Verilog y probado en una FPGA.
     
 Requisitos:
@@ -14,15 +14,20 @@ Requisitos:
 *	Cable de programación JTAG
 
 Estructura del Proyecto:
-*	decoder_7_seg.v -> Módulo decodificador que convierte los números decimales del 0 al 9 en displays de 7 segmentos.
-*	top_10bits_7seg.v -> Módulo que instancia los 4 displays separandolos en unidades, decenas, centenas y millares.
-*	top_10bits_7seg_tb.vs -> Módulo de test bench para probar en pulsaciones el funcionamiento del decodificador BCD.
+*	clkdiv.v -> Módulo que divide el reloj en 
+*	d_ff.v -> Módulo de 
+*	debouncer.v ->
+*	pwm.v -> Máquina de estados que describe el cambio de valor del Duty Cycle dependiendo de la introducción de señales de botón
+*	pwm_tb.v -> Módulo de prueba de pulsaciones para verificar el funcionamiento del programa.
+*	pwm_wr.v -> Módulo wrapper de asignación de pines de entrada y salida.
 
 Evidencia Link:
-*   https://drive.google.com/file/d/11vQPnaNHqT0V9Ux_MTHzCVuPNMV8MyMj/view?usp=sharing
+*   https://drive.google.com/file/d/1QhCXykJFKaUMfL4bdPcZDfRx7InFnv1h/view?usp=sharing
 
 RTL Viewer:
-![image](https://github.com/user-attachments/assets/23590311-ebe0-47bf-80f4-6e6bea55103d)
+![Captura de pantalla 2025-03-04 140238](https://github.com/user-attachments/assets/0706f6c8-b90c-4491-b967-de948386d757)
+
 
 RTL Simulation:
-![image](https://github.com/user-attachments/assets/342944de-5507-4288-b909-a29aa958f4d7)
+![Captura de pantalla 2025-03-05 075458](https://github.com/user-attachments/assets/13808d9d-23f1-402a-8fcd-dc4a0c9532c3)
+
