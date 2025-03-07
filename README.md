@@ -5,3 +5,4 @@ A01253381
 Practicas Diseño con lógica programable
 - Decodificador_BCD
 - Contador Up/Down
+- PWM
