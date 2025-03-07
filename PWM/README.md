@@ -14,9 +14,9 @@ Requisitos:
 *	Cable de programación JTAG
 
 Estructura del Proyecto:
-*	clkdiv.v -> Módulo que divide el reloj en 
 *	d_ff.v -> Módulo de 
-*	debouncer.v ->
+*	debouncer.v -> Módulo que mantiene estable la señal de entrada para evitar transiciones no deseadas, debido a que la mecánica de un interruptor no cambia de 0 a 1 de forma instantánea.
+*	clkdiv.v -> Módulo que crea una señal con menor frecuencia a partir de una señal de reloj.
 *	pwm.v -> Máquina de estados que describe el cambio de valor del Duty Cycle dependiendo de la introducción de señales de botón
 *	pwm_tb.v -> Módulo de prueba de pulsaciones para verificar el funcionamiento del programa.
 *	pwm_wr.v -> Módulo wrapper de asignación de pines de entrada y salida.
