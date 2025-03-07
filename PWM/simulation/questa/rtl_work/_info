@@ -10,12 +10,12 @@ Z0 !s99 nomlopt
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 dC:/quartus_practicas/PWN/simulation/questa
+Z1 dC:/quartus_practicas/PWM/simulation/questa
 T_opt
-!s110 1741121162
-VkhK]];MU3?c1b0YUB3;Z<3
-04 7 4 work pwm_tb1 fast 0
-=1-5811228611a5-67c76689-20f-a504
+!s110 1741182841
+V:kSHezooa9d:DRWiB2IP<1
+04 6 4 work pwm_tb fast 0
+=1-5811228611a5-67c85778-ca-abc8
 R0
 !s12b OEM100
 !s124 OEM10U2 
@@ -23,51 +23,51 @@ o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L
 Z2 tCvgOpt 0
 n@_opt
 OL;O;2023.3;77
-vpwm1
-2C:/quartus_practicas/PWN/pwm1.v
-!s110 1741121159
+vpwm
+2C:/quartus_practicas/PWM/pwm.v
+!s110 1741182838
 !i10b 1
-!s100 4c`H4A@i75S5XLRVOi_AX3
-ILJa@?@`heI<QNUTfhLM8]2
+!s100 iI:mlHRN>g><SelgOfI0>2
+IfDlLod`[0`KJT:E__2RZ43
 R1
-Z3 w1741121106
-8C:/quartus_practicas/PWN/pwm1.v
-FC:/quartus_practicas/PWN/pwm1.v
+w1741181865
+8C:/quartus_practicas/PWM/pwm.v
+FC:/quartus_practicas/PWM/pwm.v
 !i122 0
-L0 1 36
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2023.3;77
+L0 1 68
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.3;77
 r1
 !s85 0
 31
-!s108 1741121159.000000
-!s107 C:/quartus_practicas/PWN/pwm1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_practicas/PWN|C:/quartus_practicas/PWN/pwm1.v|
+!s108 1741182838.000000
+!s107 C:/quartus_practicas/PWM/pwm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_practicas/PWM|C:/quartus_practicas/PWM/pwm.v|
 !i113 0
-Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z7 !s92 -vlog01compat -work work +incdir+C:/quartus_practicas/PWN -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 !s92 -vlog01compat -work work +incdir+C:/quartus_practicas/PWM -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
-vpwm_tb1
-2C:/quartus_practicas/PWN/pwm_tb1.v
-!s110 1741121160
+vpwm_tb
+2C:/quartus_practicas/PWM/pwm_tb.v
+!s110 1741182839
 !i10b 1
-!s100 nQ=6m6Nn1;_d_Q94eM@N90
-IIkAFl0R<d15ViP>GE?DT63
+!s100 7^@3djf6M7Cm=V^nY;PO53
+IkeMB_TLzBn@5j0o`=;]h>0
 R1
-R3
-8C:/quartus_practicas/PWN/pwm_tb1.v
-FC:/quartus_practicas/PWN/pwm_tb1.v
+w1741182812
+8C:/quartus_practicas/PWM/pwm_tb.v
+FC:/quartus_practicas/PWM/pwm_tb.v
 !i122 1
-L0 1 33
+L0 1 30
+R3
 R4
-R5
 r1
 !s85 0
 31
-!s108 1741121160.000000
-!s107 C:/quartus_practicas/PWN/pwm_tb1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_practicas/PWN|C:/quartus_practicas/PWN/pwm_tb1.v|
+!s108 1741182839.000000
+!s107 C:/quartus_practicas/PWM/pwm_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_practicas/PWM|C:/quartus_practicas/PWM/pwm_tb.v|
 !i113 0
+R5
 R6
-R7
 R2

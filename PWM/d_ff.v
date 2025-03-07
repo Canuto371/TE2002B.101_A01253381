@@ -1,11 +1,10 @@
-//flip flop
 module d_ff (
 	input slow_clk,D,
 	output reg Q
 );
 
-	always @(posedge slow_clk) begin
-		Q<=D;
-	end
+always @(posedge slow_clk) begin
+	Q<=D;
+end
 
 endmodule
