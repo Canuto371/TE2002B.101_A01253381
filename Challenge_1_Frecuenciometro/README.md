@@ -2,7 +2,7 @@
 Elizabeth Jauregui Zarate
 A01253381
 -
-Decodificador Binario a Decimal
+Challenge_1_Frecuenciometro
 
 Descripción:
 *    El proyecto adjunto despliega en formato decimal la frecuencia de una señal (Min 10 Hz, Max 100 KHz), en 6 displays de 7 segmentos.
