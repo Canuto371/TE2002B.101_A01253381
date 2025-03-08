@@ -1,0 +1,103 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do Challenge_1_Frecuenciometro_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro {C:/quartus_practicas/Challenge_1_Frecuenciometro/decoder_7_seg.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:11:47 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro" C:/quartus_practicas/Challenge_1_Frecuenciometro/decoder_7_seg.v 
+# -- Compiling module decoder_7_seg
+# 
+# Top level modules:
+# 	decoder_7_seg
+# End time: 20:11:47 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro {C:/quartus_practicas/Challenge_1_Frecuenciometro/top_10bits_7seg.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:11:48 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro" C:/quartus_practicas/Challenge_1_Frecuenciometro/top_10bits_7seg.v 
+# -- Compiling module top_10bits_7seg
+# 
+# Top level modules:
+# 	top_10bits_7seg
+# End time: 20:11:48 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro {C:/quartus_practicas/Challenge_1_Frecuenciometro/pulse_counter.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:11:48 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro" C:/quartus_practicas/Challenge_1_Frecuenciometro/pulse_counter.v 
+# -- Compiling module pulse_counter
+# 
+# Top level modules:
+# 	pulse_counter
+# End time: 20:11:48 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro {C:/quartus_practicas/Challenge_1_Frecuenciometro/frecuenciometro.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:11:48 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro" C:/quartus_practicas/Challenge_1_Frecuenciometro/frecuenciometro.v 
+# -- Compiling module frecuenciometro
+# 
+# Top level modules:
+# 	frecuenciometro
+# End time: 20:11:48 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro {C:/quartus_practicas/Challenge_1_Frecuenciometro/frecuenciometro_tb.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:11:49 on Mar 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/quartus_practicas/Challenge_1_Frecuenciometro" C:/quartus_practicas/Challenge_1_Frecuenciometro/frecuenciometro_tb.v 
+# -- Compiling module frecuenciometro_tb
+# 
+# Top level modules:
+# 	frecuenciometro_tb
+# End time: 20:11:49 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  frecuenciometro_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" frecuenciometro_tb 
+# Start time: 20:11:49 on Mar 07,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: C:/quartus_practicas/Challenge_1_Frecuenciometro/frecuenciometro_tb.v(10): (vopt-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 10, found 9.
+# ** Warning: C:/quartus_practicas/Challenge_1_Frecuenciometro/frecuenciometro_tb.v(10): (vopt-2718) [TFMPC] - Missing connection for port 'led_out'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading work.frecuenciometro_tb(fast)
+# Loading work.frecuenciometro(fast)
+# Loading work.pulse_counter(fast)
+# Loading work.top_10bits_7seg(fast)
+# Loading work.decoder_7_seg(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/quartus_practicas/Challenge_1_Frecuenciometro/frecuenciometro_tb.v(37)
+#    Time: 20001 ns  Iteration: 0  Instance: /frecuenciometro_tb
+# Break in Module frecuenciometro_tb at C:/quartus_practicas/Challenge_1_Frecuenciometro/frecuenciometro_tb.v line 37
+# End time: 20:12:03 on Mar 07,2025, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 3
