@@ -1,0 +1,122 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/quartus_practicas/Password/simulation/questa
+T_opt
+!s110 1741636570
+VJQj0TcJZ:Ab8mIbeA^Z9A2
+04 11 4 work password_tb fast 0
+=1-5811228611a5-67cf43d9-2f9-41d4
+R0
+!s12b OEM100
+!s124 OEM10U13 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+voneshot
+2C:/quartus_practicas/Password/oneshot.v
+Z3 !s110 1741636568
+!i10b 1
+!s100 E5Zh6E;b6QmD9NX9GaRc]0
+IhZbo::3_;g1YM6H[`k@JI1
+R1
+w1741355492
+8C:/quartus_practicas/Password/oneshot.v
+FC:/quartus_practicas/Password/oneshot.v
+!i122 1
+L0 1 16
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1741636567.000000
+!s107 C:/quartus_practicas/Password/oneshot.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_practicas/Password|C:/quartus_practicas/Password/oneshot.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+C:/quartus_practicas/Password -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vPassword
+2C:/quartus_practicas/Password/Password.v
+!s110 1741636567
+!i10b 1
+!s100 9[HU;MZEbJX>Ac=0]GJKd3
+I2gdMN8fW9QA3YcS`GF^jn1
+R1
+w1741630780
+8C:/quartus_practicas/Password/Password.v
+FC:/quartus_practicas/Password/Password.v
+!i122 0
+L0 1 135
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/quartus_practicas/Password/Password.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_practicas/Password|C:/quartus_practicas/Password/Password.v|
+!i113 0
+R7
+R8
+R2
+n@password
+vpassword_tb
+2C:/quartus_practicas/Password/password_tb.v
+R3
+!i10b 1
+!s100 4ej9Og1HCIK;Qi<?o0DmE2
+I115A]E2=0i3d=KZoM]DCU0
+R1
+w1741636519
+8C:/quartus_practicas/Password/password_tb.v
+FC:/quartus_practicas/Password/password_tb.v
+!i122 3
+L0 3 49
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1741636568.000000
+!s107 C:/quartus_practicas/Password/password_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_practicas/Password|C:/quartus_practicas/Password/password_tb.v|
+!i113 0
+R7
+R8
+R2
+vtop_password_oneshot
+2C:/quartus_practicas/Password/top_password_oneshot.v
+R3
+!i10b 1
+!s100 B=S7j^6MFTPj[YZhgAUh<1
+I;=]7a:<n;:>bm<nWiLN9W0
+R1
+w1741636194
+8C:/quartus_practicas/Password/top_password_oneshot.v
+FC:/quartus_practicas/Password/top_password_oneshot.v
+!i122 2
+L0 1 41
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/quartus_practicas/Password/top_password_oneshot.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/quartus_practicas/Password|C:/quartus_practicas/Password/top_password_oneshot.v|
+!i113 0
+R7
+R8
+R2
