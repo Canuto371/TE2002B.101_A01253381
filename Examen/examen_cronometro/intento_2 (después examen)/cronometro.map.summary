@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Mar 12 14:50:50 2025
+Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+Revision Name : cronometro
+Top-level Entity Name : top_counter_wr
+Family : MAX 10
+Total logic elements : 529
+    Total combinational functions : 529
+    Dedicated logic registers : 53
+Total registers : 53
+Total pins : 55
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
