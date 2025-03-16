@@ -1,5 +1,7 @@
 # TE2002B (Grupo 101)
-Elizabeth Jauregui Zarate
+Elizabeth Jáuregui Zárate (A01253381),
+Vanessa Cerda Carrillo (A01612852),
+Ana María Rodríguez Peña (A01741831)
 A01253381
 -
 Evidencia 1 : Reporte de Proyecto Final
