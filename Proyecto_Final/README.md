@@ -2,27 +2,25 @@
 Elizabeth Jauregui Zarate
 A01253381
 -
-Decodificador Binario a Decimal
+Evidencia 1 : Reporte de Proyecto Final
 
 Descripción:
-*    El proyecto adjunto convierte un número binario de 10 bits en un número decimal de 4 displays de 7 segmentos (de 0 a 1023).
+*   El proyecto consta del desarrollo pleno de un brazo robótico controlado mediante un FPGA (Field Programmable Gate Array), específicamente una tarjeta DE10-Lite MAX10, que procesa datos de un acelerómetro para mover cuatro servomotores SG90, uno de ellos destinado al funcionamiento de una pinza y los otros tres destinados al movimiento del brazo en tres diferentes grados de movimiento (X, Y y Z). 
 *    La programación del hardware fue realizado utilizando Quartus y Verilog y probado en una FPGA.
     
 Requisitos:
 *	Quartus Prime (Intel FPGA)
 *	FPGA compatible (DE10-Lite, MAX10 10M50DAF484C7G)
 *	Cable de programación JTAG
+*	Cable de visualización VGA
+*	Cuatro Servomotores SG90 
+*   Protoboard (Placa de pruebas)
+*   Jumpers (Cables de conexión)
+*   Chasis de Brazo Robótico
+
 
 Estructura del Proyecto:
-*	decoder_7_seg.v -> Módulo decodificador que convierte los números decimales del 0 al 9 en displays de 7 segmentos.
-*	top_10bits_7seg.v -> Módulo que instancia los 4 displays separandolos en unidades, decenas, centenas y millares.
-*	top_10bits_7seg_tb.vs -> Módulo de test bench para probar en pulsaciones el funcionamiento del decodificador BCD.
-
-Evidencia Link:
-*   https://drive.google.com/file/d/11vQPnaNHqT0V9Ux_MTHzCVuPNMV8MyMj/view?usp=sharing
-
-RTL Viewer:
-![image](https://github.com/user-attachments/assets/23590311-ebe0-47bf-80f4-6e6bea55103d)
-
-RTL Simulation:
-![image](https://github.com/user-attachments/assets/342944de-5507-4288-b909-a29aa958f4d7)
+*   accel.v -> Interactúa con el acelerómetro, procesa los datos de los ejes X, Y y Z, y los visualiza en una salida VGA mientras controla otros módulos como el brazo y la memoria ROM.
+*   ROM.v -> Almacena valores predefinidos de datos de movimiento para el control de servomotores y los distribuye a través de direcciones específicas de la ROM.
+*   VGA.v -> Genera la señal VGA para mostrar los datos del acelerómetro en una pantalla, sincronizando la visualización y representando caracteres y cifras.
+*   brazo2.v -> Controla los servomotores generando señales PWM basadas en los datos del acelerómetro o la memoria ROM para regular el movimiento del brazo.
